@@ -14,7 +14,8 @@ export const tracklists = [
         10:{name:"Oxyplasmic Gyration Beam",duration:"4:17",},
         11:{name:"Triangular Hydrogen Strain",duration:"3:55",},
         12:{name:"Bottom Feeders",duration:"3:25",},
-        13:{name:"C To The Power Of X + C To The Power Of X = MM = Unknown",duration:"2:35",},
+        13:{name:"C To The Power Of X + C To The Power Of X = MM = Unknown",duration:"2:35",}
+    }
 },
 {
     id:2,
