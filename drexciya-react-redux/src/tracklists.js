@@ -1,7 +1,5 @@
 export const tracklists = [
-{
-    id:1,
-    tracks:{
+{       
         1:{name:"Intro: Temple Of Dos De Aqua", duration:"1:00",},
         2:{name:"Andreaen Sand Dunes", duration:"6:15",},
         3:{name:"Running Out Of Space", duration:"1:54",},
@@ -15,24 +13,21 @@ export const tracklists = [
         11:{name:"Triangular Hydrogen Strain",duration:"3:55",},
         12:{name:"Bottom Feeders",duration:"3:25",},
         13:{name:"C To The Power Of X + C To The Power Of X = MM = Unknown",duration:"2:35",}
-    }
+
 },
 {
-    id:2,
     tracks:{
         1:{name:"Intro: Temple Of Dos De Aqua", duration:"1:00",},
         2:{name:"",duration:"",},
         3:{name:"",duration:"",}}
 },
 {
-    id:3,
     tracks:{
         1:{name:"Intro: Temple Of Dos De Aqua", duration:"1:00",},
         2:{name:"",duration:"",},
         3:{name:"",duration:"",}}
 },
 {
-    id:4,
     tracks:{
         1:{name:"Intro: Temple Of Dos De Aqua", duration:"1:00",},
         2:{name:"",duration:"",},

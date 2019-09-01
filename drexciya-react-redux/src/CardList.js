@@ -11,9 +11,9 @@ const CardList = ({ albums }) => {
                 id={albums[i].id} 
                 name={albums[i].name} 
                 year={albums[i].year} 
-                tracklist={albums[i].tracklist} 
                 cover={albums[i].cover} 
                 url={albums[i].url} 
+                tracklist={albums[i].tracklist}
             />                      
         );
     })
