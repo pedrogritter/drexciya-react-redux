@@ -2,11 +2,11 @@ import React from 'react';
 
 const SearchBox = ({ searchField, searchChange }) => {
     return (
-        <div className='pa2'>
+        <div className='f2 pa2'>
             <input 
                 className='pa3 ba b--green bg-lightest-blue'
                 type='search' 
-                placeholder='Search an album...'
+                placeholder='Search an album by name...'
                 onChange={searchChange}>
             </input>
 

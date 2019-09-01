@@ -28,7 +28,7 @@ class Drexciya extends Component {
 
         return ( 
             <div className="tc br4 code fl w-100">
-                <h3 className="f1">DREXCIYA RESEARCH LAB</h3>
+                <h3 className="f1 dark-blue">DREXCIYA RESEARCH LAB</h3>
                 <p className="f3 dark-blue">Slaves thrown overboard give birth underwater to the greatest warriors ever known. The Drexciyans!!</p>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList albums={filteredAlbums} />

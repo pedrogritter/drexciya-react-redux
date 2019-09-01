@@ -10,7 +10,7 @@ const TrackListComponent = ({tracklist}) => {
             
     return(
         <div>
-            <ol>
+            <ol className="tl">
                 {trackList}
             </ol>
         </div>
