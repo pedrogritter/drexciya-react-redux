@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Drexciya from './Drexciya'
+import Drexciya from './containers/Drexciya'
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 

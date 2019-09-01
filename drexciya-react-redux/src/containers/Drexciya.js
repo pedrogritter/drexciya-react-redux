@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Drexciya.css'
-import CardList from './CardList';
-import {albums} from './albums';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
+import CardList from '../components/CardList';
+import {albums} from '../albums';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
 
 class Drexciya extends Component {
 
@@ -21,12 +21,16 @@ class Drexciya extends Component {
     }  
 
     render() {
+        const{albums, searchField} = this.state;
+
         // Starts with all available items & filters given search term
-        const filteredAlbums = this.state.albums.filter(albums =>{
-            return albums.name.toLowerCase().includes(this.state.searchField.toLowerCase());
+        const filteredAlbums = albums.filter(album =>{
+            return album.name.toLowerCase().includes(searchField.toLowerCase());
         })
 
-        return ( 
+        return !albums.length ? 
+            <h1 className="white">Loading</h1> :
+            ( 
             <div className="tc br4 code fl w-100">
                 <h3 className="f1 dark-blue">DREXCIYA RESEARCH LAB</h3>
                 <p className="f3 dark-blue">Slaves thrown overboard give birth underwater to the greatest warriors ever known. The Drexciyans!!</p>
