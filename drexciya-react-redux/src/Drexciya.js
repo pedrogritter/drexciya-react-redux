@@ -3,7 +3,7 @@ import './Drexciya.css'
 import CardList from './CardList';
 import {albums} from './albums';
 import SearchBox from './SearchBox';
-
+import Scroll from './Scroll';
 
 class Drexciya extends Component {
 
@@ -31,7 +31,10 @@ class Drexciya extends Component {
                 <h3 className="f1 dark-blue">DREXCIYA RESEARCH LAB</h3>
                 <p className="f3 dark-blue">Slaves thrown overboard give birth underwater to the greatest warriors ever known. The Drexciyans!!</p>
                 <SearchBox searchChange={this.onSearchChange}/>
-                <CardList albums={filteredAlbums} />
+                <Scroll>
+                    <CardList albums={filteredAlbums} />
+                </Scroll>
+                <br></br>
                 <br></br>
                 <a className="code white" href="https://www.factmag.com/2010/09/09/the-essential-drexciya/"> <h3>The genius of Drexciya in 10 essential releases - by FACTmag</h3></a>
                 <a className="code white" href="https://daily.redbullmusicacademy.com/2017/06/drexciya-infinite-journey-to-inner-space"> <h3>In a sense, to be a Drexciya fan was to build the mythos by yourself. - Kodwo Eshun</h3></a>
