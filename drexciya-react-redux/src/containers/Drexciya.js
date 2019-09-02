@@ -43,8 +43,8 @@ class Drexciya extends Component {
                 </Scroll>
                 <br></br>
                 <br></br>
-                <a className="code white" href="https://www.factmag.com/2010/09/09/the-essential-drexciya/"> <h3>The genius of Drexciya in 10 essential releases - by FACTmag</h3></a>
-                <a className="code white" href="https://daily.redbullmusicacademy.com/2017/06/drexciya-infinite-journey-to-inner-space"> <h3>In a sense, to be a Drexciya fan was to build the mythos by yourself. - Kodwo Eshun</h3></a>
+                <a className=" f2 code white" href="https://www.factmag.com/2010/09/09/the-essential-drexciya/"> <h3>The genius of Drexciya in 10 essential releases - by FACTmag</h3></a>
+                <a className="f2 code white" href="https://daily.redbullmusicacademy.com/2017/06/drexciya-infinite-journey-to-inner-space"> <h3>In a sense, to be a Drexciya fan was to build the mythos by yourself. - Kodwo Eshun</h3></a>
             
             </div>
         );
