@@ -4,6 +4,7 @@ import CardList from '../components/CardList';
 import {albums} from '../albums';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import ErrorBoundry from '../components/ErrorBoundry';
 
 class Drexciya extends Component {
 
@@ -36,7 +37,9 @@ class Drexciya extends Component {
                 <p className="f3 dark-blue">Slaves thrown overboard give birth underwater to the greatest warriors ever known. The Drexciyans!!</p>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
-                    <CardList albums={filteredAlbums} />
+                    <ErrorBoundry>
+                        <CardList albums={filteredAlbums} />
+                    </ErrorBoundry>
                 </Scroll>
                 <br></br>
                 <br></br>
